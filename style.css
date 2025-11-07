@@ -67,3 +67,39 @@
     background-color: whitesmoke;
     border: 1px solid red;
 }
+
+.hidden {
+    display: none;
+}
+.card {
+    background-color: #f4f4f4;
+    border: 1px #ccc solid;
+    padding: 15px;
+}
+.dark{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.mini_project_key_code{
+    display: flex;
+    justify-content: space-around;
+    background-color:wheat;
+}
+.mini_project_key_code #insert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#insert .key{
+    padding: 10px;
+    background-color: white;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    border-radius: 3px;
+    cursor: pointer;
+}
